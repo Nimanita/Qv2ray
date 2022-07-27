@@ -4,7 +4,7 @@ dist: bionic
 
 script:
   - echo Refreshing launchpad repository
-
+  
 deploy:
   - provider: launchpad
     slug: "~ymshenyu/qv2ray/+git/trunk"
@@ -12,3 +12,5 @@ deploy:
     oauth_token_secret: $LAUNCHPAD_OAUTH_TOKEN_SECRET
     on:
       all_branches: true
+      
+      dfj
